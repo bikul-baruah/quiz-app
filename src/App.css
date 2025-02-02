@@ -1,0 +1,130 @@
+/* App.css */
+
+/* Global styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Timer styles */
+.timer {
+  font-size: 2em;
+  color: #ff6f61; /* Red color for urgency */
+  margin-bottom: 20px;
+}
+
+/* Answer buttons styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f8f8;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  background-color: #e0e0e0;
+}
+
+li.selected {
+  background-color: #d0f0c0;
+}
+
+li.correct {
+  background-color: #c8e6c9;
+}
+
+li.incorrect {
+  background-color: #ffccbc;
+}
+
+/* Button styles */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Result Page Styles */
+.result h2 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.result p {
+  font-size: 1.5em;
+  margin: 20px 0;
+  color: #666;
+}
+
+.result button {
+  background-color: #008CBA;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result button:hover {
+  background-color: #006f8e;
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 15px;
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  li {
+    padding: 15px;
+  }
+
+  .result button {
+    width: 100%;
+  }
+}
