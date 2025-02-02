@@ -21,4 +21,4 @@ A web-based quiz application that fetches quiz data from an API and includes gam
 
 1. Clone the repository:
    ```sh
-   git clone <your-repository-url>
+   git clone (https://github.com/bikul-baruah/quiz-app.git)
